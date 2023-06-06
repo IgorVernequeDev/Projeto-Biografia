@@ -1,0 +1,206 @@
+/* DOCUMENTO CSS /*
+
+/* RESET CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+header {
+    background-color: #644F4F;
+    height: 310px;
+}
+header h1 {
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+figure {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.principal {
+    border-radius: 20px;
+    width: 170px;
+}
+.jovem {
+    margin-top: 80px;
+    margin-left: 350px;
+    width: 250px;
+    border-radius: 20px;
+}
+.desenho {
+    margin-left: 300px;
+    border-radius: 20px;
+    width: 400px;
+}
+nav {
+    background-color: #668A59;
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+	list-style: none;
+}
+nav ul li {
+	display: inline;
+}
+
+nav ul li a {
+    padding: 20px 60px;
+    background-color: #fff;
+	text-decoration: none;
+	color: #fff;
+    margin: 0 30px;
+    color: #668A59;
+    font-size: 20px;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+nav ul li a:hover {
+    background-color:#668A59;
+    color: #fff;
+    border: 2px solid white;
+}
+body figure img {
+    margin-top: 50px;
+    width: 250px;
+    border-radius: 10px;
+}
+.bio {
+    width: 170px;
+    height: 70px;
+    border-radius: 20px;
+    background-color: #668A59;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 25px;
+    margin-left: 670px;
+    margin-top: 20px;
+}
+main {
+    height: 700px;
+    margin-top: 50px;
+}
+form {
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #644F4F;
+    color: #fff;
+    font-family: sans-serif;
+    margin-left: 270px;
+    font-size: 18px;
+    padding: 20px;
+}
+div {
+    display: flex;
+}
+.parte1 {
+    position: absolute;
+    right: 220px;
+    margin-top: 70px;
+}
+hr {
+    margin-top: 140px;
+}
+.trab {
+    width: 190px;
+    height: 70px;
+    border-radius: 20px;
+    background-color: #668A59;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 25px;
+    margin-left: 670px;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+.parte3 {
+    margin-top: 80px;
+}
+.parte4 {
+    margin-top: 80px;
+    padding-right: 100px;
+}
+.trab1 {
+    margin-left: 325px;
+    margin-top: 100px;
+    width: 300px;
+    border-radius: 20px;
+}
+.trab2 {
+    margin-left: 350px;
+    width: 340px;
+    border-radius: 20px;
+    margin-top: 100px;
+}
+.curio {
+    width: 220px;
+    height: 70px;
+    border-radius: 20px;
+    background-color: #668A59;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 25px;
+    margin-left: 670px;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+.foto1 {
+    width: 330px;
+    border-radius: 20px;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+.foto2 {
+    width: 350px;
+    border-radius: 20px;
+    margin-left: 330px;
+    margin-top: 100px;
+}
+.parte5 {
+    margin-top: 80px;
+}
+.parte6 {
+    margin-top: 80px;
+}
+footer p {
+    font-family: sans-serif;
+    margin-left: 300px;
+}
+.senai {
+    width: 200px;
+}
+.frase {
+    height: 50px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+}
+footer {
+    background-color: #644F4F;
+    color: #fff;
+    height: 180px;
+    padding-top: 30px;
+    margin-top: 60px;
+}
+.desenhoform {
+    margin-top: 70px;
+}
